@@ -244,7 +244,7 @@ font-size: 20px;
 }
 
 /* @media query para modo responsivo */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
 
   #buttomMenuResponsive{
     display: block;
@@ -273,7 +273,6 @@ font-size: 20px;
     --transition: transform .8s .8s;
   }
   
-
   .return {
     position: fixed;
     width: 95%;
@@ -365,7 +364,7 @@ h1{
 
 /* Estilos para pantallas con un ancho mínimo de 768px */
 }
-@media (min-width: 768px) and (max-width: 915px) {
+@media (min-width: 900px) and (max-width: 1024px) {
 
   #buttomMenuResponsive{
     display: block;
@@ -457,7 +456,7 @@ h1{
 
 /* Estilos para pantallas con un ancho entre 915px y 1024px */
 
-@media (min-width: 915px) and (max-width: 1025px) {
+@media (min-width: 1024px) and (max-width: 1200px) {
   .card{
       width: 25%;
   }
