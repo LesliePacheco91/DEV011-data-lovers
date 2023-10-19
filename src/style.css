@@ -244,7 +244,7 @@ font-size: 20px;
 }
 
 /* @media query para modo responsivo */
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
 
   #buttomMenuResponsive{
     display: block;
@@ -288,12 +288,17 @@ font-size: 20px;
 .container{
   width: auto;
 }
+
+select[data-testid="select-sort"]{
+  height: 70px;
+}
 select[name="type"]{
   width: 75%;
-  height: 50px;
+  height: 70px;
 }
 button[data-testid="button-clear"]{
 width: 80%;
+height: 70px;
 }
 .card{
     width: 70%;
@@ -358,13 +363,13 @@ h1{
   --transition: transform .8s .8s;
 }
 .menuModl{
-  width: 15%;
+  width: 20%;
   padding: 14px;
 }
 
 /* Estilos para pantallas con un ancho mínimo de 768px */
 }
-@media (min-width: 1024px) and (max-width: 1100px) {
+@media (min-width: 1025px) and (max-width: 1200px) {
 
   #buttomMenuResponsive{
     display: block;
@@ -412,7 +417,11 @@ h1{
       padding: 10px;
   }
   select[name="type"]{
-      width: 80%;
+      width: 90%;
+      height: 60px;
+  }
+  select[data-testid="select-sort"]{
+    height: 60px;
   }
   button[data-testid="button-clear"]{
       width: 60%;
@@ -456,7 +465,7 @@ h1{
 
 /* Estilos para pantallas con un ancho entre 915px y 1024px */
 
-@media (min-width: 1100px) and (max-width: 1300px) {
+@media (min-width: 1200px) and (max-width: 1300px) {
   .card{
       width: 25%;
   }
